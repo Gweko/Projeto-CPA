@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Form.css" media="">
+    <title>CPA - FORMULÁRIO</title>
+</head>
+
+<body>
+    <main class="box">
+
+    <header class="header">
+        <img src="download-removebg-preview.png" width="50%" alt="">
+
+    </header>
+    <div class="campo">
+        <form action="banco.php" method="POST">
+        <h1 id="Titulo">Comissão Própria de Avaliação</h1>
+    </div><br><br><br>
+    <form>
+        <fieldset class="grupo">
+            <div class="text">
+                <form action="banco.php" method="POST">
+                <label for="nome"><strong>Nome Completo</strong></label><br>
+                <div class="tex">
+                <input type="text" , placeholder="Digite o seu nome aqui..." , name="nome" , id="nome" , class="input" required>
+                </div>
+            </div><br><br>
+            <div class="text">
+            <label for="escolha"><strong>O que você deseja?</strong></label><br>
+                <select id="Escolha">
+                <option selected disabled value="">Informe o que deseja...</option>
+                <option>Informar problema</option>
+                <option>Sugestão</option>
+                <option>Avaliar a atuação da CPA</option>
+            </select>
+            </div><br><br>
+            <div id="check">
+                <label for="escolha"><strong>Em qual área você acha que esse problema se enquadra?</strong></label><br>
+                <select id="Escolha">
+                    <option selected disabled value="">Informe a área...</option>
+                    <option>Administrativo</option>
+                    <option>Docente</option>
+                    <option>Segurança</option>
+                    <option>Acadêmico</option>
+                    <option>Avaliação</option>
+                    <option>Infraestrutura</option>
+                </select>
+            </div><br><br><br>
+            <fieldset class="grupo">
+                <div id="campo">
+                    <label for="bloco"><strong>Informe o Bloco:</strong></label>
+                    <br>
+                    <select id="Escolha">
+                    <option selected disabled value="">Informe o bloco...</option>
+                    <option>Bloco A</option>
+                    <option>Bloco B</option>
+                    <option>Bloco C</option>
+                    <option>Bloco G</option>
+                    <option>Anexo A</option>
+                    <option>Anexo B</option>
+                    <option>Laboratório</option>
+                    </select>    
+                </div><br><br>
+                <div class="text">
+                    <form action="banco.php" method="POST">
+                        <textarea row="6" style="width: 26em" id="digite" name="digite" required></textarea>
+                    </div><br><br>
+            </fieldset><br><br>
+            <div class="campo">
+                 <button class="botão" type="submit">Enviar</button>
+            </div>
+    </form>
+    <footer class="rodape">
+        <p><strong>Está com dúvidas? Procure pela CPA na instituição.</strong></p>
+    </footer>
+    <footer class="rodape2">
+        <header class="header">
+            <img src="download_1-removebg-preview.png" alt="">
+
+
+        </header>
+    </footer>
+</form>
+</main>
+</body>
+
+</html>
+
+        <!-- ⠄⠄⠄⢰⣧⣼⣯⠄⣸⣠⣶⣶⣦⣾⠄⠄⠄⠄⡀⠄⢀⣿⣿⠄⠄⠄⢸⡇⠄⠄<br>
+        ⠄⠄⠄⣾⣿⠿⠿⠶⠿⢿⣿⣿⣿⣿⣦⣤⣄⢀⡅⢠⣾⣛⡉⠄⠄⠄⠸⢀⣿⠄<br>
+        ⠄⠄⢀⡋⣡⣴⣶⣶⡀⠄⠄⠙⢿⣿⣿⣿⣿⣿⣴⣿⣿⣿⢃⣤⣄⣀⣥⣿⣿⠄<br>
+        ⠄⠄⢸⣇⠻⣿⣿⣿⣧⣀⢀⣠⡌⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠿⠿⣿⣿⣿⠄<br>
+        ⠄⢀⢸⣿⣷⣤⣤⣤⣬⣙⣛⢿⣿⣿⣿⣿⣿⣿⡿⣿⣿⡍⠄⠄⢀⣤⣄⠉⠋⣰<br>
+        ⠄⣼⣖⣿⣿⣿⣿⣿⣿⣿⣿⣿⢿⣿⣿⣿⣿⣿⢇⣿⣿⡷⠶⠶⢿⣿⣿⠇⢀⣤<br>
+        ⠘⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣽⣿⣿⣿⡇⣿⣿⣿⣿⣿⣿⣷⣶⣥⣴⣿⡗<br>
+        ⢀⠈⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⠄<br>
+        ⢸⣿⣦⣌⣛⣻⣿⣿⣧⠙⠛⠛⡭⠅⠒⠦⠭⣭⡻⣿⣿⣿⣿⣿⣿⣿⣿⡿⠃⠄<br>              
+        ⠘⣿⣿⣿⣿⣿⣿⣿⣿⡆⠄⠄⠄⠄⠄⠄⠄⠄⠹⠈⢋⣽⣿⣿⣿⣿⣵⣾⠃⠄<br>
+        ⠄⠘⣿⣿⣿⣿⣿⣿⣿⣿⠄⣴⣿⣶⣄⠄⣴⣶⠄⢀⣾⣿⣿⣿⣿⣿⣿⠃⠄⠄<br>
+        ⠄⠄⠈⠻⣿⣿⣿⣿⣿⣿⡄⢻⣿⣿⣿⠄⣿⣿⡀⣾⣿⣿⣿⣿⣛⠛⠁⠄⠄⠄<br>
+        ⠄⠄⠄⠄⠈⠛⢿⣿⣿⣿⠁⠞⢿⣿⣿⡄⢿⣿⡇⣸⣿⣿⠿⠛⠁⠄⠄⠄⠄⠄<br>
+        ⠄⠄⠄⠄⠄⠄⠄⠉⠻⣿⣿⣾⣦⡙⠻⣷⣾⣿⠃⠿⠋⠁⠄⠄⠄⠄⠄⢀⣠⣴<br>
+        ⣿⣿⣿⣶⣶⣮⣥⣒⠲⢮⣝⡿⣿⣿⡆⣿⡿⠃⠄⠄⠄⠄⠄⠄⠄⣠⣴⣿⣿⣿ -->

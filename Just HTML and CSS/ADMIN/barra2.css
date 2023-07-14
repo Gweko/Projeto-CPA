@@ -1,0 +1,55 @@
+#menu-bar{
+	display: none;
+	color: #00bbff;
+
+}
+
+.menu{
+
+	position: absolute;
+	top: 50px;;
+	left:0;
+	width: 15%;
+	height: 1000px;
+	/*menu bar*/
+	background-color: #0091c5;
+	/*Pontos*/
+	color: rgb(0, 145, 197);
+	border-radius: 2px;
+}
+
+.menu a{
+	display: block;
+	/*menu bar*/
+	background-color: #0091c5;
+	color: #ffffff;
+	height: 60px;
+	text-decoration: none;
+	padding: 15px;
+	border-bottom: 5px;
+	display: flex;
+	align-items: center;
+	
+}
+
+.menu a:hover{
+	background: rgba(255, 255, 255, 0.219);
+}
+
+.select {
+	background-color: rgb(187, 47, 47);
+}
+
+.select {
+	background-color:black;
+	border: none;
+	padding: 21px;
+}
+
+li{
+	color: rgba(0, 0, 0, 0)
+}
+
+#menu-bar:checked ~ .menu{
+	transform: translateX(0%)
+}

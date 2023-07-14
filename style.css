@@ -1,0 +1,99 @@
+* {
+    margin: 10;
+    padding: 10;
+}
+
+#Titulo {
+    font-family: sans-serif;
+    color: #575757;
+    margin-left: 0%;
+    page-break-before: left;
+}
+
+fieldset {
+    border: 0;
+    page-break-before: right;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 1em;
+    margin-left: 36%;
+    margin-right: 5%;
+    margin-top: 2%;
+    justify-content: center;
+    page-break-before: center;
+    background-color: #00bbff;
+}
+
+.grupo {
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #575757;
+
+}
+
+.text {
+    position: absolute;
+    font-size: 18px;
+    width: 48% ;
+    height: -20px;
+
+
+}
+
+.textX {
+    color: #575757;
+    font-size: 15px;
+
+}
+    
+
+.box {
+    margin-left: 0px;
+    margin-right: 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    border-width: 1.5px;
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    width: 500px;
+    height: 550px;
+
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.input {
+    border-radius: 5px;
+    font-size: 20px;
+    border-color: #b1b1b1;
+    outline: none;
+    padding: 15px;
+}
+
+.botão {
+    text-decoration: none;
+    font-size: 21.3px;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #00bbff;
+    border-radius: 5px;
+    border-color: #b1b1b1;
+    padding: 15px;
+    width: 278px;
+    text-shadow: 0px 0px 0px #000000;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.botão:hover {
+    opacity: 4;
+    background-color: #0091c5
+}
